@@ -965,6 +965,8 @@ section {
     font-size: 4rem;
   }
 }
-
+ .study {
+  text-align: right;
+ }
 
 /*# sourceMappingURL=styles.css.map */
