@@ -566,6 +566,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid var(--color-white);
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
   margin: 0.3rem 0 !important;
@@ -829,6 +830,7 @@ section {
   .contact-item {
     flex-direction: column;
     margin: 1rem 0;
+    border-bottom: 1px solid var(--color-primary);
   }
   .contact-item p {
     font-size: 15px;
@@ -986,5 +988,13 @@ section {
  .study {
   text-align: right;
  }
+
+ .contact-icons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+ }
+
+ 
 
 /*# sourceMappingURL=styles.css.map */
