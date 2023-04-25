@@ -993,8 +993,15 @@ section {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin: 3rem 0 8rem 0;
  }
 
- 
+ .text-contact {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 6rem;
+ }
+
+
 
 /*# sourceMappingURL=styles.css.map */
