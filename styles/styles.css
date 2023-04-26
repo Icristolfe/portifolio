@@ -723,6 +723,12 @@ section {
     padding: 0 !important;
   }
 
+  .contact-icon {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
   .theme-btn {
     width: 50px;
     height: 50px;
@@ -904,6 +910,13 @@ section {
 
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-icon {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
   }
 }
 @media screen and (max-width: 1070px) {
